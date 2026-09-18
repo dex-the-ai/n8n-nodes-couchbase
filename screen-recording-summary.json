@@ -1,0 +1,13 @@
+{
+  "mp4": "/home/ubuntu/.hermes/kanban/boards/couchbase-ecosystem/workspaces/t_2817e05f/n8n-query-vector-store-chat-path.mp4",
+  "webm": "/home/ubuntu/.hermes/kanban/boards/couchbase-ecosystem/workspaces/t_2817e05f/n8n-query-vector-store-chat-path.webm",
+  "frames": 42,
+  "webhook_status": 200,
+  "webhook_url": "http://localhost:5678/webhook-test/hOZYW0lfG5jvgNd4/cf632a4f1f7341f4b33ad5e61a54389d",
+  "saw_sapphire_lagoon": true,
+  "saw_success": true,
+  "console_errors_tail": [
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+    "Error: injectNDVStore() was accessed without an active workflow document store. Derive the NDV store from injectWorkflowDocumentStore().value.documentId in contexts that can run without a loaded workflow.\n    at ir.fn (http://127.0.0.1:5678/assets/workflows.store-B6wmV1uy.js:27:113136)\n    at _t (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:13743)\n    at get value (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:29722)\n    at http://127.0.0.1:5678/assets/NodeView-YLyugJzt.js:2:155285\n    at mr (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:30059)\n    at hr (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:30119)\n    at Br.s.call (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:33647)\n    at _n.fn (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:20367)\n    at _n.run (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:23467)\n    at pn (http://127.0.0.1:5678/assets/vue.runtime.esm-bundler-CI7KXqJ7.js:2:21053)"
+  ]
+}
