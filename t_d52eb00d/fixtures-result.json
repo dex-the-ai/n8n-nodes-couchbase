@@ -1,0 +1,81 @@
+{
+ "workflow_ids": {
+  "core": "JBtHrSUmqqYHSin0",
+  "query": "3opx75Kh5r2rDG6R",
+  "search": "myQTqY6iwmSuier3"
+ },
+ "results": [
+  {
+   "fixture": "core-nodes-test-all",
+   "step": "execute whole workflow (KV/SQL++/FTS/advanced search/chat memory)",
+   "pass": true,
+   "detail": "ran=11 nodes missing=[] errors=None fts_items=1 memory_load_items=5"
+  },
+  {
+   "fixture": "query-vector-store-test-all",
+   "step": "seed travel-agent POI via Insert mode",
+   "pass": true,
+   "detail": "error=None"
+  },
+  {
+   "fixture": "query-vector-store-test-all",
+   "step": "Get Many (trigger -> Get Many)",
+   "pass": true,
+   "detail": "items=2 top='The Colosseum is an ancient amphitheatre in the centre of Rome, Italy,' error=None"
+  },
+  {
+   "fixture": "query-vector-store-test-all",
+   "step": "Insert (trigger -> Code -> Insert)",
+   "pass": true,
+   "detail": "error=None"
+  },
+  {
+   "fixture": "query-vector-store-test-all",
+   "step": "Update Documents (copied inserted id 98b788ec-3bad-4aaa-9324-02b8e92e929d)",
+   "pass": true,
+   "detail": "doc_id=98b788ec-3bad-4aaa-9324-02b8e92e929d error=None"
+  },
+  {
+   "fixture": "query-vector-store-test-all",
+   "step": "Vector Store QA Tool path (Retrieve as VS -> QA tool -> AI Agent)",
+   "pass": true,
+   "detail": "plugin_returned_landmarks=True sub_node_runs=1 llm_answer='The points of interest in Europe in the database are:\\n1. The Colosseum in Rome, Italy\\n2. The Eiffel Tower in Paris, Fran' error=None"
+  },
+  {
+   "fixture": "query-vector-store-test-all",
+   "step": "Retrieve As Tool path (Retrieve as tool -> AI Agent)",
+   "pass": true,
+   "detail": "plugin_returned_landmarks=True sub_node_runs=1 llm_answer='The points of interest in Europe from the database are:\\n\\n1. The Colosseum - an ancient amphitheatre in the centre of Rom' error=None"
+  },
+  {
+   "fixture": "search-vector-store-test-all",
+   "step": "Get Many (trigger -> Get Many)",
+   "pass": true,
+   "detail": "items=2 top='The Eiffel Tower is a wrought-iron lattice tower in Paris, France, Eur' error=None"
+  },
+  {
+   "fixture": "search-vector-store-test-all",
+   "step": "Insert (trigger -> Code -> Insert)",
+   "pass": true,
+   "detail": "error=None"
+  },
+  {
+   "fixture": "search-vector-store-test-all",
+   "step": "Update Documents (copied inserted id 4210dfc8-8f71-48c1-a57a-77f0ce2fbbf8)",
+   "pass": true,
+   "detail": "doc_id=4210dfc8-8f71-48c1-a57a-77f0ce2fbbf8 error=None"
+  },
+  {
+   "fixture": "search-vector-store-test-all",
+   "step": "Vector Store QA Tool path (Retrieve as VS -> QA tool -> AI Agent)",
+   "pass": true,
+   "detail": "plugin_returned_landmarks=True sub_node_runs=1 llm_answer=\"It appears that there are no points of interest in Europe currently available in the database. If you'd like, I can help\" error=None"
+  },
+  {
+   "fixture": "search-vector-store-test-all",
+   "step": "Retrieve As Tool path (Retrieve as tool -> AI Agent)",
+   "pass": true,
+   "detail": "plugin_returned_landmarks=True sub_node_runs=1 llm_answer='It appears that there are no points of interest specifically labeled as being in Europe in the database. Would you like ' error=None"
+  }
+ ]
+}
